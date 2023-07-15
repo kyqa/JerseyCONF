@@ -57,37 +57,37 @@ function module:GetTeam(teamName)
                 }
             },
         }
-    elseif (string.lower(teamName) == "syracuse") then
+    elseif (string.lower(teamName) == "indiana") then
         return {
-            City = "Notre Dame",
-            Name = "Fighting Irish",
-            Abbreviation = "ND",
+            City = "Indiana",
+            Name = "Hoosiers",
+            Abbreviation = "IND",
             Colors = {
                 Normal = {
-                    Main = "#0a2242",
-                    Light = "#163e75"
+                    Main = "#9a0000",
+                    Light = "#ba0404"
                 },
                 Alternate = {
-                    Main = "#007641",
-                    Light = "#049654"
+                    Main = "#ffffff",
+                    Light = "#ffffff"
                 },
-                Endzone = "#c99700",
+                Endzone = "#ffffff",
                 Jersey = {
                     Home = {
                         NumberInner = "#ffffff",
-                        NumberStroke = "#c99700",
-                        Helmet = "#c99700",
-                        Jersey = "#0a2242",
-                        Stripe = "#FFFFFF",
-                        Pants = "#c99700"
+                        NumberStroke = "#9a0000",
+                        Helmet = "#9a0000",
+                        Jersey = "#9a0000",
+                        Stripe = "#ffffff",
+                        Pants = "#ffffff"
                     },
                     Away = {
-                        NumberInner = "#0a2242",
-                        NumberStroke = "#c99700",
-                        Helmet = "#c99700",
-                        Jersey = "#FFFFFF",
-                        Stripe = "#0a2242",
-                        Pants = "#c99700"
+                        NumberInner = "#9a0000",
+                        NumberStroke = "#ffffff",
+                        Helmet = "#9a0000",
+                        Jersey = "#ffffff",
+                        Stripe = "#9a0000",
+                        Pants = "#ffffff"
                     }
                 }
             },

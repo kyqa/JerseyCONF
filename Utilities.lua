@@ -5,7 +5,7 @@ This file contains the following features:
 * College Teams Database
 * Config File Reading/Saving/Updating
 
-Created by Enzo/Mage
+Created by Supermrk (@supermrk)
 ]]
 
 local Services = {
@@ -86,14 +86,66 @@ function module:GetTeam(teamName)
                         NumberStroke = "#ffffff",
                         Helmet = "#9a0000",
                         Jersey = "#ffffff",
-                        Stripe = "#9a0000",
+                        Stripe = "#ffffff",
                         Pants = "#ffffff"
+                    }
+                }
+            },
+        }
+    elseif (string.lower(teamName) == "connecticut") then
+        return {
+            City = "Connecticut",
+            Name = "Huskies",
+            Abbreviation = "CONN",
+            Colors = {
+                Normal = {
+                    Main = "#070d33",
+                    Light = "#0c1554"
+                },
+                Alternate = {
+                    Main = "#ffffff",
+                    Light = "#ffffff"
+                },
+                Endzone = "#070d33",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#ffffff",
+                        NumberStroke = "#ffffff",
+                        Helmet = "#070d33",
+                        Jersey = "#070d33",
+                        Stripe = "#070d33",
+                        Pants = "#070d33"
+                    },
+                    Away = {
+                        NumberInner = "#070d33",
+                        NumberStroke = "#ffffff",
+                        Helmet = "#070d33",
+                        Jersey = "#ffffff",
+                        Stripe = "#ffffff",
+                        Pants = "#070d33"
                     }
                 }
             },
         }
     end
     return nil
+end
+
+local RSPNChannels = {
+    ["RoSportProgrammingNetwork"] = "730050166",
+    ["RSPN_2"] = "846285089",
+    ["RSPN3"] = "846285510",
+    ["RSPN4"] = "875247498",
+    ["RSPN_5"] = "875247935",
+    ["RSPNDeportes"] = "875248189"
+}
+
+function module:GetRSPNChannels()
+    return RSPNChannels
+end
+
+function module:GetChannelID(channel)
+    return RSPNChannels[channel]
 end
 
 function module:FormatClock(seconds : number)

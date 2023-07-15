@@ -50,7 +50,7 @@ function module:GetTeam(teamName)
                         NumberInner = "#0a2242",
                         NumberStroke = "#c99700",
                         Helmet = "#c99700",
-                        Jersey = "#FFFFFF",
+                        Jersey = "#007641",
                         Stripe = "#0a2242",
                         Pants = "#c99700"
                     }

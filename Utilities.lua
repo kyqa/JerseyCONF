@@ -5,7 +5,6 @@ This file contains the following features:
 * College Teams Database
 * Config File Reading/Saving/Updating
 
-Created by Supermrk (@supermrk)
 ]]
 
 local Services = {

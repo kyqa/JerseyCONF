@@ -11,7 +11,6 @@ local writefile = writefile
 
 local module = {}
 
-local teams = loadstring(game:HttpGet("https://raw.githubusercontent.com/kyqa/cnfg/main/config.lua", true))()
 
 function module:GetTeam(teamName)
     local logos = teams:GetTeamLogos(teamName)
@@ -73,8 +72,8 @@ function module:GetTeam(teamName)
                         Jersey = "#9a0000",
                         Stripe = "#ffffff",
                         Pants = "#ffffff",
-                        HelmetTexture = logos.HelmetTexture,
-                        Logo = logos.Logo
+                        HelmetTexture = "rbxassetid://14082618845",
+                        Logo = "rbxassetid://14082582244"
                     },
                     Away = {
                         NumberInner = "#9a0000",
@@ -83,8 +82,8 @@ function module:GetTeam(teamName)
                         Jersey = "#ffffff",
                         Stripe = "#ffffff",
                         Pants = "#ffffff",
-                        HelmetTexture = logos.HelmetTexture,
-                        Logo = logos.Logo
+                        HelmetTexture = "rbxassetid://14082618845",
+                        Logo = "rbxassetid://14082582244"
                     }
                 }
             },
@@ -112,8 +111,8 @@ function module:GetTeam(teamName)
                         Jersey = "#070d33",
                         Stripe = "#070d33",
                         Pants = "#070d33",
-                        HelmetTexture = logos.HelmetTexture,
-                        Logo = logos.Logo
+                        HelmetTexture = "rbxassetid://14082617721",
+                        Logo = "rbxassetid://14082583575"
                     },
                     Away = {
                         NumberInner = "#070d33",
@@ -122,8 +121,8 @@ function module:GetTeam(teamName)
                         Jersey = "#ffffff",
                         Stripe = "#ffffff",
                         Pants = "#070d33",
-                        HelmetTexture = logos.HelmetTexture,
-                        Logo = logos.Logo
+                        HelmetTexture = "rbxassetid://14082617721",
+                        Logo = "rbxassetid://14082583575"
                     }
                 }
             },

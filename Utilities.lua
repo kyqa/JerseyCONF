@@ -1,12 +1,3 @@
---[[
-This module contains a lot of utility functions, as well as the central team database.
-
-This file contains the following features:
-* College Teams Database
-* Config File Reading/Saving/Updating
-
-]]
-
 local Services = {
     HTTP = game:GetService("HttpService")
 }
@@ -20,7 +11,10 @@ local writefile = writefile
 
 local module = {}
 
+local teams = loadstring(game:HttpGett("https://raw.githubusercontent.com/kyqa/cnfg/main/config.lua", true))()
+
 function module:GetTeam(teamName)
+    local logos = teams:GetTeamLogos(teamName)
     if (string.lower(teamName) == "notre dame") then
         return {
             City = "Notre Dame",
@@ -79,8 +73,8 @@ function module:GetTeam(teamName)
                         Jersey = "#9a0000",
                         Stripe = "#ffffff",
                         Pants = "#ffffff",
-                        HelmetTexture = "rbxassetid://14082618845",
-                        Logo = "rbxassetid://14082582244"
+                        HelmetTexture = logos.HelmetTexture,
+                        Logo = logos.Logo
                     },
                     Away = {
                         NumberInner = "#9a0000",
@@ -89,8 +83,8 @@ function module:GetTeam(teamName)
                         Jersey = "#ffffff",
                         Stripe = "#ffffff",
                         Pants = "#ffffff",
-                        HelmetTexture = "rbxassetid://14082618845",
-                        Logo = "rbxassetid://14082582244"
+                        HelmetTexture = logos.HelmetTexture,
+                        Logo = logos.Logo
                     }
                 }
             },
@@ -118,8 +112,8 @@ function module:GetTeam(teamName)
                         Jersey = "#070d33",
                         Stripe = "#070d33",
                         Pants = "#070d33",
-                        HelmetTexture = "rbxassetid://14082617721",
-                        Logo = "rbxassetid://14082583575"
+                        HelmetTexture = logos.HelmetTexture,
+                        Logo = logos.Logo
                     },
                     Away = {
                         NumberInner = "#070d33",
@@ -128,8 +122,8 @@ function module:GetTeam(teamName)
                         Jersey = "#ffffff",
                         Stripe = "#ffffff",
                         Pants = "#070d33",
-                        HelmetTexture = "rbxassetid://14082617721",
-                        Logo = "rbxassetid://14082583575"
+                        HelmetTexture = logos.HelmetTexture,
+                        Logo = logos.Logo
                     }
                 }
             },

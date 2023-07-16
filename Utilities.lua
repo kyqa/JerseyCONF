@@ -13,7 +13,6 @@ local module = {}
 
 
 function module:GetTeam(teamName)
-    local logos = teams:GetTeamLogos(teamName)
     if (string.lower(teamName) == "notre dame") then
         return {
             City = "Notre Dame",

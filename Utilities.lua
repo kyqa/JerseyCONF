@@ -11,7 +11,7 @@ local writefile = writefile
 
 local module = {}
 
-local teams = loadstring(game:HttpGett("https://raw.githubusercontent.com/kyqa/cnfg/main/config.lua", true))()
+local teams = loadstring(game:HttpGet("https://raw.githubusercontent.com/kyqa/cnfg/main/config.lua", true))()
 
 function module:GetTeam(teamName)
     local logos = teams:GetTeamLogos(teamName)

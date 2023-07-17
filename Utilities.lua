@@ -126,6 +126,84 @@ function module:GetTeam(teamName)
                 }
             },
         }
+    elseif (string.lower(teamName) == "arizona") then
+        return {
+            City = "Arizona",
+            Name = "Wildcadts",
+            Abbreviation = "ARIZ",
+            Colors = {
+                Normal = {
+                    Main = "#003066",
+                    Light = "#023e82"
+                },
+                Alternate = {
+                    Main = "#ffffff",
+                    Light = "#ffffff"
+                },
+                Endzone = "#003066",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#cd0030",
+                        NumberStroke = "#ffffff",
+                        Helmet = "#003066",
+                        Jersey = "#003066",
+                        Stripe = "#003066",
+                        Pants = "#003066",
+                        HelmetTexture = "rbxassetid://14091411792",
+                        Logo = "rbxassetid://13157798270"
+                    },
+                    Away = {
+                        NumberInner = "#003066",
+                        NumberStroke = "#cd0030",
+                        Helmet = "#ffffff",
+                        Jersey = "#ffffff",
+                        Stripe = "#ffffff",
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14091387178",
+                        Logo = "rbxassetid://13157798270"
+                    }
+                }
+            },
+        }
+    elseif (string.lower(teamName) == "georgia") then
+        return {
+            City = "Georgia",
+            Name = "Bulldogs",
+            Abbreviation = "UGA",
+            Colors = {
+                Normal = {
+                    Main = "#cd0030",
+                    Light = "#e8053a"
+                },
+                Alternate = {
+                    Main = "#ffffff",
+                    Light = "#ffffff"
+                },
+                Endzone = "#cd0030",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#ffffff",
+                        NumberStroke = "#000001",
+                        Helmet = "#cd0030",
+                        Jersey = "#cd0030",
+                        Stripe = "#cd0030",
+                        Pants = "#fffffff",
+                        HelmetTexture = "rbxassetid://14091515996",
+                        Logo = "rbxassetid://14091374120"
+                    },
+                    Away = {
+                        NumberInner = "#000001",
+                        NumberStroke = "cd0030",
+                        Helmet = "#cd0030",
+                        Jersey = "#ffffff",
+                        Stripe = "#ffffff",
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14091515996",
+                        Logo = "rbxassetid://14091374120"
+                    }
+                }
+            },
+        }
     end
     return nil
 end

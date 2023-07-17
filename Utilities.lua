@@ -70,8 +70,6 @@ function module:GetTeam(teamName)
                         Jersey = "#9a0000",
                         Stripe = "#ffffff",
                         Pants = "#ffffff",
-                        HelmetTexture = "rbxassetid://14082618845",
-                        Logo = "rbxassetid://14082582244"
                     },
                     Away = {
                         NumberInner = "#9a0000",
@@ -80,8 +78,6 @@ function module:GetTeam(teamName)
                         Jersey = "#ffffff",
                         Stripe = "#ffffff",
                         Pants = "#ffffff",
-                        HelmetTexture = "rbxassetid://14082618845",
-                        Logo = "rbxassetid://14082582244"
                     }
                 }
             },

@@ -2,7 +2,7 @@ local Services = {
     HTTP = game:GetService("HttpService")
 }
 
------------------dddd------------------------------------------------------
+-----------------------------------------------------------------------
 -- Script API Declarations
 -----------------------------------------------------------------------
 local isfile = isfile
@@ -10,7 +10,6 @@ local readfile = readfile
 local writefile = writefile
 
 local module = {}
-
 
 function module:GetTeam(teamName)
     if (string.lower(teamName) == "notre dame") then
@@ -183,7 +182,7 @@ function module:GetTeam(teamName)
                 Jersey = {
                     Home = {
                         NumberInner = "#ffffff",
-                        NumberStroke = "#000001",
+                        NumberStroke = "#040203",
                         Helmet = "#cd0030",
                         Jersey = "#cd0030",
                         Stripe = "#cd0030",
@@ -193,7 +192,7 @@ function module:GetTeam(teamName)
                     },
                     Away = {
                         NumberInner = "#000001",
-                        NumberStroke = "cd0030",
+                        NumberStroke = "#cd0030",
                         Helmet = "#cd0030",
                         Jersey = "#ffffff",
                         Stripe = "#ffffff",

@@ -51,41 +51,41 @@ function module:GetTeam(teamName)
                 }
             },
         }
-    elseif (string.lower(teamName) == "syracuse") then
+    elseif (string.lower(teamName) == "ucf") then
         return {
-            City = "Syracuse",
-            Name = "Orange",
-            Abbreviation = "SYR",
+            City = "UCF",
+            Name = "Knights",
+            Abbreviation = "UCF",
             Colors = {
                 Normal = {
-                    Main = "#02193d",
-                    Light = "#042a65"
+                    Main = "#b79a61",
+                    Light = "#ccad6f"
                 },
                 Alternate = {
                     Main = "#ffffff",
                     Light = "#ffffff"
                 },
-                Endzone = "#f04e1e",
+                Endzone = "#b79a61",
                 Jersey = {
                     Home = {
                         NumberInner = "#ffffff",
-                        NumberStroke = "#f04e1e",
-                        Helmet = "#f04e1e",
-                        Jersey = "#02193d",
-                        Stripe = "#02193d",
-                        Pants = "#f04e1e",
-                        HelmetTexture = "rbxassetid://14101957893",
-                        Logo = "rbxassetid://14101955354"
+                        NumberStroke = "#1d1f1a",
+                        Helmet = "#ffffff",
+                        Jersey = "#b79a61",
+                        Stripe = "#b79a61",
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14102464252",
+                        Logo = "rbxassetid://14102465358"
                     },
                     Away = {
-                        NumberInner = "#f04e1e",
-                        NumberStroke = "#02193d",
-                        Helmet = "#f04e1e",
+                        NumberInner = "#b79a61",
+                        NumberStroke = "#1d1f1a",
+                        Helmet = "#ffffff",
                         Jersey = "#ffffff",
                         Stripe = "#ffffff",
-                        Pants = "#f04e1e",
-                        HelmetTexture = "rbxassetid://14101957893",
-                        Logo = "rbxassetid://14101955354"
+                        Pants = "#b79a61",
+                        HelmetTexture = "rbxassetid://14102464252",
+                        Logo = "rbxassetid://14102465358"
                     }
                 }
             },

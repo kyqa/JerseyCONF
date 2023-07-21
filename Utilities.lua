@@ -30,7 +30,7 @@ function module:GetTeam(teamName)
                 Jersey = {
                     Home = {
                         NumberInner = "#d1b989",
-                        NumberStroke = "#fffffff",
+                        NumberStroke = "#ffffff",
                         Helmet = "#d1b989",
                         Jersey = "#792b3e",
                         Stripe = "#792b3e",

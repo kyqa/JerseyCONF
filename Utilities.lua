@@ -51,41 +51,41 @@ function module:GetTeam(teamName)
                 }
             },
         }
-    elseif (string.lower(teamName) == "clemson") then
+    elseif (string.lower(teamName) == "lfg") then
         return {
-            City = "Clemson",
-            Name = "Tigers",
-            Abbreviation = "CLEM",
+            City = "LFG",
+            Name = "Esports",
+            Abbreviation = "LFG",
             Colors = {
                 Normal = {
-                    Main = "#f56600",
-                    Light = "#ff7e22"
+                    Main = "#eeca69",
+                    Light = "#fdd772"
                 },
                 Alternate = {
                     Main = "#ffffff",
                     Light = "#ffffff"
                 },
-                Endzone = "#ff7e22",
+                Endzone = "#fdd772",
                 Jersey = {
                     Home = {
-                        NumberInner = "#ffffff",
-                        NumberStroke = "#4e2586",
-                        Helmet = "#f56600",
-                        Jersey = "#f56600",
-                        Stripe = "#f56600",
-                        Pants = "#f56600",
-                        HelmetTexture = "rbxassetid://14136050366",
-                        Logo = "rbxassetid://14136029678"
+                        NumberInner = "#000000",
+                        NumberStroke = "#ffffff",
+                        Helmet = "#fdd772",
+                        Jersey = "#fdd772",
+                        Stripe = "#fdd772",
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14143428259",
+                        Logo = "rbxassetid://14143426558"
                     },
                     Away = {
-                        NumberInner = "#f56600",
-                        NumberStroke = "#4e2586",
-                        Helmet = "#f56600",
+                        NumberInner = "#fdd772",
+                        NumberStroke = "#000000",
+                        Helmet = "#fdd772",
                         Jersey = "#ffffff",
                         Stripe = "#ffffff",
                         Pants = "#ffffff",
-                        HelmetTexture = "rbxassetid://14136050366",
-                        Logo = "rbxassetid://14136029678"
+                        HelmetTexture = "rbxassetid://14143428259",
+                        Logo = "rbxassetid://14143426558"
                     }
                 }
             },

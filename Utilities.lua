@@ -12,80 +12,80 @@ local writefile = writefile
 local module = {}
 
 function module:GetTeam(teamName)
-    if (string.lower(teamName) == "notre dame") then
-        return {
-            City = "Notre Dame",
-            Name = "Fighting Irish",
-            Abbreviation = "ND",
+    if (string.lower(teamName) == "florida state") then
+                return {
+            City = "Florida State",
+            Name = "Seminoles",
+            Abbreviation = "FSU",
             Colors = {
                 Normal = {
-                    Main = "#0a2242",
-                    Light = "#163e75"
-                },
-                Alternate = {
-                    Main = "#007641",
-                    Light = "#049654"
-                },
-                Endzone = "#c99700",
-                Jersey = {
-                    Home = {
-                        NumberInner = "#ffffff",
-                        NumberStroke = "#c99700",
-                        Helmet = "#c99700",
-                        Jersey = "#0a2242",
-                        Stripe = "#FFFFFF",
-                        Pants = "#c99700",
-                        HelmetTexture = "rbxassetid://14101953431",
-                        Logo = "rbxassetid://14101954597"
-                    },
-                    Away = {
-                        NumberInner = "#0a2242",
-                        NumberStroke = "#c99700",
-                        Helmet = "#c99700",
-                        Jersey = "#007641",
-                        Stripe = "#0a2242",
-                        Pants = "#c99700",
-                        HelmetTexture = "rbxassetid://14101953431",
-                        Logo = "rbxassetid://14101954597"
-                    }
-                }
-            },
-        }
-    elseif (string.lower(teamName) == "ucf") then
-        return {
-            City = "UCF",
-            Name = "Knights",
-            Abbreviation = "UCF",
-            Colors = {
-                Normal = {
-                    Main = "#b79a61",
-                    Light = "#ccad6f"
+                    Main = "#792b3e",
+                    Light = "#8e344a"
                 },
                 Alternate = {
                     Main = "#ffffff",
                     Light = "#ffffff"
                 },
-                Endzone = "#b79a61",
+                Endzone = "#8e344a",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#d1b989",
+                        NumberStroke = "#fffffff",
+                        Helmet = "#d1b989",
+                        Jersey = "#792b3e",
+                        Stripe = "#792b3e",
+                        Pants = "#d1b989",
+                        HelmetTexture = "rbxassetid://14136048844",
+                        Logo = "rbxassetid://14136035262"
+                    },
+                    Away = {
+                        NumberInner = "#792b3e",
+                        NumberStroke = "#d1b989",
+                        Helmet = "#ffffff",
+                        Jersey = "#ffffff",
+                        Stripe = "#792b3e",
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14136048844",
+                        Logo = "rbxassetid://14136035262"
+                    }
+                }
+            },
+        }
+    elseif (string.lower(teamName) == "clemson") then
+        return {
+            City = "Clemson",
+            Name = "Tigers",
+            Abbreviation = "CLEM",
+            Colors = {
+                Normal = {
+                    Main = "#f56600",
+                    Light = "#ff7e22"
+                },
+                Alternate = {
+                    Main = "#ffffff",
+                    Light = "#ffffff"
+                },
+                Endzone = "#ff7e22",
                 Jersey = {
                     Home = {
                         NumberInner = "#ffffff",
-                        NumberStroke = "#1d1f1a",
-                        Helmet = "#ffffff",
-                        Jersey = "#b79a61",
-                        Stripe = "#b79a61",
-                        Pants = "#ffffff",
-                        HelmetTexture = "rbxassetid://14102464252",
-                        Logo = "rbxassetid://14102465358"
+                        NumberStroke = "#4e2586",
+                        Helmet = "#f56600",
+                        Jersey = "#f56600",
+                        Stripe = "#f56600",
+                        Pants = "#f56600",
+                        HelmetTexture = "rbxassetid://14136050366",
+                        Logo = "rbxassetid://14136029678"
                     },
                     Away = {
-                        NumberInner = "#b79a61",
-                        NumberStroke = "#1d1f1a",
-                        Helmet = "#ffffff",
+                        NumberInner = "#f56600",
+                        NumberStroke = "#4e2586",
+                        Helmet = "#f56600",
                         Jersey = "#ffffff",
                         Stripe = "#ffffff",
-                        Pants = "#b79a61",
-                        HelmetTexture = "rbxassetid://14102464252",
-                        Logo = "rbxassetid://14102465358"
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14136050366",
+                        Logo = "rbxassetid://14136029678"
                     }
                 }
             },

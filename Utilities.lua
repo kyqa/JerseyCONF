@@ -94,23 +94,6 @@ function module:GetTeam(teamName)
     return nil
 end
 
-local RSPNChannels = {
-    ["RoSportProgrammingNetwork"] = "730050166",
-    ["RSPN_2"] = "846285089",
-    ["RSPN3"] = "846285510",
-    ["RSPN4"] = "875247498",
-    ["RSPN_5"] = "875247935",
-    ["RSPNDeportes"] = "875248189"
-}
-
-function module:GetRSPNChannels()
-    return RSPNChannels
-end
-
-function module:GetChannelID(channel)
-    return RSPNChannels[channel]
-end
-
 function module:FormatClock(seconds : number)
     local minutes = (seconds - seconds%60)/60
     seconds = seconds-minutes*60

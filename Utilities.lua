@@ -12,41 +12,41 @@ local writefile = writefile
 local module = {}
 
 function module:GetTeam(teamName)
-    if (string.lower(teamName) == "florida") then
+    if (string.lower(teamName) == "arizona") then
         return {
-            City = "Florida State",
-            Name = "Seminoles",
-            Abbreviation = "FSU",
+            City = "Arizona",
+            Name = "Wildcats",
+            Abbreviation = "ARIZ",
             Colors = {
                 Normal = {
-                    Main = "#792b3e",
-                    Light = "#8e3349"
+                    Main = "#003066",
+                    Light = "#023e82"
                 },
                 Alternate = {
                     Main = "#ffffff",
                     Light = "#ffffff"
                 },
-                Endzone = "#8e3349",
+                Endzone = "#003066",
                 Jersey = {
                     Home = {
-                        NumberInner = "#d7b87f",
+                        NumberInner = "#cd0030",
                         NumberStroke = "#ffffff",
-                        Helmet = "#d7b87f",
-                        Jersey = "#792b3e",
-                        Stripe = "#792b3e",
-                        Pants = "#d7b87f",
-                        HelmetTexture = "rbxassetid://14136048844",
-                        Logo = "rbxassetid://14136035262"
+                        Helmet = "#003066",
+                        Jersey = "#003066",
+                        Stripe = "#003066",
+                        Pants = "#003066",
+                        HelmetTexture = "rbxassetid://14091411792",
+                        Logo = "rbxassetid://13157798270"
                     },
                     Away = {
-                        NumberInner = "#792b3e",
-                        NumberStroke = "#ffffff",
-                        Helmet = "#d7b87f",
+                        NumberInner = "#003066",
+                        NumberStroke = "#cd0030",
+                        Helmet = "#ffffff",
                         Jersey = "#ffffff",
-                        Stripe = "#792b3e",
+                        Stripe = "#ffffff",
                         Pants = "#ffffff",
-                        HelmetTexture = "rbxassetid://14136048844",
-                        Logo = "rbxassetid://14136035262"
+                        HelmetTexture = "rbxassetid://14091387178",
+                        Logo = "rbxassetid://13157798270"
                     }
                 }
             },

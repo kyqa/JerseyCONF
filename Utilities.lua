@@ -12,80 +12,80 @@ local writefile = writefile
 local module = {}
 
 function module:GetTeam(teamName)
-    if (string.lower(teamName) == "arizona") then
+    if (string.lower(teamName) == "notre dame") then
         return {
-            City = "Arizona",
-            Name = "Wildcats",
-            Abbreviation = "ARIZ",
+            City = "Notre Dame",
+            Name = "Fighting Irish",
+            Abbreviation = "ND",
             Colors = {
                 Normal = {
-                    Main = "#003066",
-                    Light = "#023e82"
+                    Main = "#0a2242",
+                    Light = "#163e75"
+                },
+                Alternate = {
+                    Main = "#007641",
+                    Light = "#049654"
+                },
+                Endzone = "#c99700",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#ffffff",
+                        NumberStroke = "#c99700",
+                        Helmet = "#c99700",
+                        Jersey = "#0a2242",
+                        Stripe = "#FFFFFF",
+                        Pants = "#c99700",
+                        HelmetTexture = "rbxassetid://14101953431",
+                        Logo = "rbxassetid://14101954597"
+                    },
+                    Away = {
+                        NumberInner = "#0a2242",
+                        NumberStroke = "#c99700",
+                        Helmet = "#c99700",
+                        Jersey = "#007641",
+                        Stripe = "#0a2242",
+                        Pants = "#c99700",
+                        HelmetTexture = "rbxassetid://14101953431",
+                        Logo = "rbxassetid://14101954597"
+                    }
+                }
+            },
+        }
+    elseif (string.lower(teamName) == "kansas") then
+        return {
+            City = "Kansas",
+            Name = "Jayhawks",
+            Abbreviation = "KU",
+            Colors = {
+                Normal = {
+                    Main = "#004fb9",
+                    Light = "#fe2121"
                 },
                 Alternate = {
                     Main = "#ffffff",
                     Light = "#ffffff"
                 },
-                Endzone = "#003066",
+                Endzone = "#035cd3",
                 Jersey = {
                     Home = {
-                        NumberInner = "#cd0030",
-                        NumberStroke = "#ffffff",
-                        Helmet = "#003066",
-                        Jersey = "#003066",
-                        Stripe = "#003066",
-                        Pants = "#003066",
-                        HelmetTexture = "rbxassetid://14091411792",
-                        Logo = "rbxassetid://13157798270"
+                        NumberInner = "#ffffff",
+                        NumberStroke = "#ba4858",
+                        Helmet = "#004fb9",
+                        Jersey = "#004fb9",
+                        Stripe = "#ba4858",
+                        Pants = "#004fb9",
+                        HelmetTexture = "rbxassetid://14230064266",
+                        Logo = "rbxassetid://14230066804"
                     },
                     Away = {
-                        NumberInner = "#003066",
-                        NumberStroke = "#cd0030",
+                        NumberInner = "#004fb9",
+                        NumberStroke = "#ba4858",
                         Helmet = "#ffffff",
                         Jersey = "#ffffff",
-                        Stripe = "#ffffff",
-                        Pants = "#ffffff",
-                        HelmetTexture = "rbxassetid://14091387178",
-                        Logo = "rbxassetid://13157798270"
-                    }
-                }
-            },
-        }
-    elseif (string.lower(teamName) == "texas") then
-        return {
-            City = "Texas Tech",
-            Name = "Red Raiders",
-            Abbreviation = "TTU",
-            Colors = {
-                Normal = {
-                    Main = "#cd0000",
-                    Light = "#fe2121"
-                },
-                Alternate = {
-                    Main = "#000000",
-                    Light = "#171717"
-                },
-                Endzone = "#000000",
-                Jersey = {
-                    Home = {
-                        NumberInner = "#ffffff",
-                        NumberStroke = "#000000",
-                        Helmet = "#ffffff",
-                        Jersey = "#cd0000",
-                        Stripe = "#ffffff",
+                        Stripe = "#004fb9",
                         Pants = "#ffffff",
                         HelmetTexture = "rbxassetid://14102464252",
-                        Logo = "rbxassetid://14172533915"
-                    },
-                    Away = {
-                        NumberInner = "#ffffff",
-                        NumberStroke = "#cd0000",
-                        Helmet = "#000000",
-                        Jersey = "#000000",
-                        Stripe = "#000000",
-                        Pants = "#000000",
-                        HelmetTexture = "rbxassetid://14172529295",
-                        Logo = "rbxassetid://14172533915"
+                        Logo = "rbxassetid://14230066804"
                     }
                 }
             },

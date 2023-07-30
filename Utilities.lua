@@ -12,80 +12,80 @@ local writefile = writefile
 local module = {}
 
 function module:GetTeam(teamName)
-    if (string.lower(teamName) == "notre dame") then
+    if (string.lower(teamName) == "nebraska") then
         return {
-            City = "Notre Dame",
-            Name = "Fighting Irish",
-            Abbreviation = "ND",
+            City = "Nebraska",
+            Name = "Cornhuskers",
+            Abbreviation = "NEB",
             Colors = {
                 Normal = {
-                    Main = "#0a2242",
-                    Light = "#163e75"
+                    Main = "#cb0a2c",
+                    Light = "#ffffff"
                 },
                 Alternate = {
-                    Main = "#007641",
-                    Light = "#049654"
+                    Main = "#ffffff",
+                    Light = "#cb0a2c"
                 },
-                Endzone = "#c99700",
+                Endzone = "#cb0a2c",
                 Jersey = {
                     Home = {
                         NumberInner = "#ffffff",
-                        NumberStroke = "#c99700",
-                        Helmet = "#c99700",
-                        Jersey = "#0a2242",
-                        Stripe = "#FFFFFF",
-                        Pants = "#c99700",
-                        HelmetTexture = "rbxassetid://14101953431",
-                        Logo = "rbxassetid://14101954597"
+                        NumberStroke = "#ffffff",
+                        Helmet = "#ffffff",
+                        Jersey = "#cb0a2c",
+                        Stripe = "#cb0a2c",
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14102464252",
+                        Logo = "rbxassetid://14244659144"
                     },
                     Away = {
-                        NumberInner = "#0a2242",
-                        NumberStroke = "#c99700",
-                        Helmet = "#c99700",
-                        Jersey = "#007641",
-                        Stripe = "#0a2242",
-                        Pants = "#c99700",
-                        HelmetTexture = "rbxassetid://14101953431",
-                        Logo = "rbxassetid://14101954597"
+                        NumberInner = "#cb0a2c",
+                        NumberStroke = "#cb0a2c",
+                        Helmet = "#ffffff",
+                        Jersey = "#ffffff",
+                        Stripe = "#ffffff",
+                        Pants = "#cb0a2c",
+                        HelmetTexture = "rbxassetid://14102464252",
+                        Logo = "rbxassetid://14244659144"
                     }
                 }
             },
         }
-    elseif (string.lower(teamName) == "kansas") then
+    elseif (string.lower(teamName) == "syracuse") then
         return {
-            City = "Kansas",
-            Name = "Jayhawks",
-            Abbreviation = "KU",
+            City = "Syracuse",
+            Name = "Orange",
+            Abbreviation = "SYR",
             Colors = {
                 Normal = {
-                    Main = "#004fb9",
-                    Light = "#fe2121"
+                    Main = "#02193d",
+                    Light = "#042a65"
                 },
                 Alternate = {
                     Main = "#ffffff",
                     Light = "#ffffff"
                 },
-                Endzone = "#035cd3",
+                Endzone = "#f04e1e",
                 Jersey = {
                     Home = {
                         NumberInner = "#ffffff",
-                        NumberStroke = "#ba4858",
-                        Helmet = "#004fb9",
-                        Jersey = "#004fb9",
-                        Stripe = "#ba4858",
-                        Pants = "#004fb9",
-                        HelmetTexture = "rbxassetid://14230064266",
-                        Logo = "rbxassetid://14230066804"
+                        NumberStroke = "#f04e1e",
+                        Helmet = "#f04e1e",
+                        Jersey = "#02193d",
+                        Stripe = "#02193d",
+                        Pants = "#f04e1e",
+                        HelmetTexture = "rbxassetid://14101957893",
+                        Logo = "rbxassetid://14101955354"
                     },
                     Away = {
-                        NumberInner = "#004fb9",
-                        NumberStroke = "#ba4858",
-                        Helmet = "#ffffff",
+                        NumberInner = "#f04e1e",
+                        NumberStroke = "#02193d",
+                        Helmet = "#f04e1e",
                         Jersey = "#ffffff",
-                        Stripe = "#004fb9",
-                        Pants = "#ffffff",
-                        HelmetTexture = "rbxassetid://14102464252",
-                        Logo = "rbxassetid://14230066804"
+                        Stripe = "#ffffff",
+                        Pants = "#f04e1e",
+                        HelmetTexture = "rbxassetid://14101957893",
+                        Logo = "rbxassetid://14101955354"
                     }
                 }
             },

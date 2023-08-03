@@ -170,7 +170,7 @@ function module:GetTeam(teamName)
             Name = "Huskies",
             Abbreviation = "CONN",
             Colors = {
-                Normal = {l
+                Normal = {
                     Main = "#070d33",
                     Light = "#0c1554"
                 },

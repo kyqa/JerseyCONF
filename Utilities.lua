@@ -146,8 +146,8 @@ function module:GetTeam(teamName)
                 Endzone = "#eb461c",
                 Jersey = {
                     Home = {
-                        NumberInner = "#0b2146",
-                        NumberStroke = "#0b2146",
+                        NumberInner = "#eb461c",
+                        NumberStroke = "#eb461c",
                         Helmet = "#eb461c",
                         Jersey = "#eb461c",
                         Stripe = "#eb461c",

@@ -146,8 +146,8 @@ function module:GetTeam(teamName)
                 Endzone = "#eb461c",
                 Jersey = {
                     Home = {
-                        NumberInner = "#eb461c",
-                        NumberStroke = "#eb461c",
+                        NumberInner = "#0b2146",
+                        NumberStroke = "#0b2146",
                         Helmet = "#eb461c",
                         Jersey = "#eb461c",
                         Stripe = "#eb461c",
@@ -156,8 +156,8 @@ function module:GetTeam(teamName)
                         Logo = "rbxassetid://14305129123"
                     },
                     Away = {
-                        NumberInner = "#0b2146",
-                        NumberStroke = "#0b2146",
+                        NumberInner = "#eb461c",
+                        NumberStroke = "#eb461c",
                         Helmet = "#ffffff",
                         Jersey = "#ffffff",
                         Stripe = "#ffffff",

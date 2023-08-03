@@ -90,6 +90,45 @@ function module:GetTeam(teamName)
                 }
             },
         }
+    elseif (string.lower(teamName) == "florida") then
+        return {
+            City = "Florida State",
+            Name = "Seminoles",
+            Abbreviation = "FSU",
+            Colors = {
+                Normal = {
+                    Main = "#792b3e",
+                    Light = "#92364c"
+                },
+                Alternate = {
+                    Main = "#ffffff",
+                    Light = "#ffffff"
+                },
+                Endzone = "#792b3e",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#d1b989",
+                        NumberStroke = "#ffffff",
+                        Helmet = "#d1b989",
+                        Jersey = "#792b3e",
+                        Stripe = "#792b3e",
+                        Pants = "#d1b989",
+                        HelmetTexture = "rbxassetid://14136048844",
+                        Logo = "rbxassetid://14136035262"
+                    },
+                    Away = {
+                        NumberInner = "#792b3e",
+                        NumberStroke = "#d1b989",
+                        Helmet = "#ffffff",
+                        Jersey = "#ffffff",
+                        Stripe = "#ffffff",
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14136048844",
+                        Logo = "rbxassetid://14136035262"
+                    }
+                }
+            },
+        }
     elseif (string.lower(teamName) == "illinois") then
         return {
             City = "Illinois",

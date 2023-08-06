@@ -90,6 +90,45 @@ function module:GetTeam(teamName)
                 }
             },
         }
+    elseif (string.lower(teamName) == "clemson") then
+        return {
+            City = "Clemson",
+            Name = "Tiger",
+            Abbreviation = "CLEM",
+            Colors = {
+                Normal = {
+                    Main = "#f56600",
+                    Light = "#f98029"
+                },
+                Alternate = {
+                    Main = "#ffffff",
+                    Light = "#ffffff"
+                },
+                Endzone = "#f56600",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#ffffff",
+                        NumberStroke = "#543370",
+                        Helmet = "#f56600",
+                        Jersey = "#f56600",
+                        Stripe = "#ffffff",
+                        Pants = "#f56600",
+                        HelmetTexture = "rbxassetid://14136050366",
+                        Logo = "rbxassetid://14332753627"
+                    },
+                    Away = {
+                        NumberInner = "#f56600",
+                        NumberStroke = "#543370",
+                        Helmet = "#f56600",
+                        Jersey = "#ffffff",
+                        Stripe = "#ffffff",
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14136050366",
+                        Logo = "rbxassetid://14332753627"
+                    }
+                }
+            },
+        }
     elseif (string.lower(teamName) == "florida") then
         return {
             City = "Florida State",

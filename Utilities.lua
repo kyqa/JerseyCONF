@@ -422,7 +422,7 @@ function module:GetTeam(teamName)
                         Stripe = "#02193d",
                         Pants = "#f04e1e",
                         HelmetTexture = "rbxassetid://14101957893",
-                        Logo = "rbxassetid://14101955354"
+                        Logo = "rbxassetid://14333608601"
                     },
                     Away = {
                         NumberInner = "#f04e1e",
@@ -432,7 +432,7 @@ function module:GetTeam(teamName)
                         Stripe = "#ffffff",
                         Pants = "#f04e1e",
                         HelmetTexture = "rbxassetid://14101957893",
-                        Logo = "rbxassetid://14101955354"
+                        Logo = "rbxassetid://14333608601"
                     }
                 }
             },

@@ -93,7 +93,7 @@ function module:GetTeam(teamName)
     elseif (string.lower(teamName) == "clemson") then
         return {
             City = "Clemson",
-            Name = "Tiger",
+            Name = "Tigers",
             Abbreviation = "CLEM",
             Colors = {
                 Normal = {

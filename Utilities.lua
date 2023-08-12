@@ -59,11 +59,11 @@ function module:GetTeam(teamName)
             Colors = {
                 Normal = {
                     Main = "#7dafd6",
-                    Light = "#ffffff"
+                    Light = "#7CADD5"
                 },
                 Alternate = {
                     Main = "#ffffff",
-                    Light = "#7dafd6"
+                    Light = "#ffffff"
                 },
                 Endzone = "#7dafd6",
                 Jersey = {
@@ -80,12 +80,12 @@ function module:GetTeam(teamName)
                     Away = {
                         NumberInner = "#7dafd6",
                         NumberStroke = "#000000",
-                        Helmet = "#ffffff",
+                        Helmet = "#7CADD5",
                         Jersey = "#ffffff",
                         Stripe = "#ffffff",
-                        Pants = "#ffffff",
-                        HelmetTexture = "rbxassetid://14102464252",
-                        Logo = "rbxassetid://14269482449"
+                        Pants = "#7CADD5",
+                        HelmetTexture = "rbxassetid://14269485286",
+                        Logo = "rbxassetid://14269478234"
                     }
                 }
             },
@@ -380,8 +380,8 @@ function module:GetTeam(teamName)
                         NumberStroke = "#040203",
                         Helmet = "#cd0030",
                         Jersey = "#cd0030",
-                        Stripe = "#cd0030",
-                        Pants = "#ffffff",
+                        Stripe = "#171717",
+                        Pants = "#D5D4DA",
                         HelmetTexture = "rbxassetid://14091515996",
                         Logo = "rbxassetid://14091374120"
                     },

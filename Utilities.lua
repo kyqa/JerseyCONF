@@ -90,6 +90,45 @@ function module:GetTeam(teamName)
                 }
             },
         }
+    elseif (string.lower(teamName) == "oklahoma") then
+        return {
+            City = "Oklahoma",
+            Name = "Sooners",
+            Abbreviation = "OU",
+            Colors = {
+                Normal = {
+                    Main = "#a31934",
+                    Light = "#8f162e"
+                },
+                Alternate = {
+                    Main = "#ffffff",
+                    Light = "#ffffff"
+                },
+                Endzone = "#8f162e",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#ffffff",
+                        NumberStroke = "#ffffff",
+                        Helmet = "#a31934",
+                        Jersey = "#a31934",
+                        Stripe = "#7dafd6",
+                        Pants = "#7dafd6",
+                        HelmetTexture = "rbxassetid://14583808610",
+                        Logo = "rbxassetid://14583815626"
+                    },
+                    Away = {
+                        NumberInner = "#a31934",
+                        NumberStroke = "#a31934",
+                        Helmet = "#a31934",
+                        Jersey = "#ffffff",
+                        Stripe = "#a31934",
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14583808610",
+                        Logo = "rbxassetid://14583815626"
+                    }
+                }
+            },
+        }
     elseif (string.lower(teamName) == "clemson") then
         return {
             City = "Clemson",

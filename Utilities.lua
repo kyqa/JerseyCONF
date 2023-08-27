@@ -111,8 +111,8 @@ function module:GetTeam(teamName)
                         NumberStroke = "#ffffff",
                         Helmet = "#a31934",
                         Jersey = "#a31934",
-                        Stripe = "#7dafd6",
-                        Pants = "#7dafd6",
+                        Stripe = "#a31934",
+                        Pants = "#ffffff",
                         HelmetTexture = "rbxassetid://14583808610",
                         Logo = "rbxassetid://14583815626"
                     },
@@ -121,7 +121,7 @@ function module:GetTeam(teamName)
                         NumberStroke = "#a31934",
                         Helmet = "#a31934",
                         Jersey = "#ffffff",
-                        Stripe = "#a31934",
+                        Stripe = "#ffffff",
                         Pants = "#ffffff",
                         HelmetTexture = "rbxassetid://14583808610",
                         Logo = "rbxassetid://14583815626"

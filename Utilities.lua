@@ -51,49 +51,10 @@ function module:GetTeam(teamName)
                 }
             },
         }
-    elseif (string.lower(teamName) == "north carolina") then
-        return {
-            City = "North Carolina",
-            Name = "Tar Heels",
-            Abbreviation = "UNC",
-            Colors = {
-                Normal = {
-                    Main = "#7dafd6",
-                    Light = "#7CADD5"
-                },
-                Alternate = {
-                    Main = "#ffffff",
-                    Light = "#ffffff"
-                },
-                Endzone = "#7dafd6",
-                Jersey = {
-                    Home = {
-                        NumberInner = "#ffffff",
-                        NumberStroke = "#000000",
-                        Helmet = "#7dafd6",
-                        Jersey = "#7dafd6",
-                        Stripe = "#7dafd6",
-                        Pants = "#7dafd6",
-                        HelmetTexture = "rbxassetid://14269485286",
-                        Logo = "rbxassetid://14269478234"
-                    },
-                    Away = {
-                        NumberInner = "#7dafd6",
-                        NumberStroke = "#000000",
-                        Helmet = "#7CADD5",
-                        Jersey = "#ffffff",
-                        Stripe = "#ffffff",
-                        Pants = "#7CADD5",
-                        HelmetTexture = "rbxassetid://14269485286",
-                        Logo = "rbxassetid://14269478234"
-                    }
-                }
-            },
-        }
     elseif (string.lower(teamName) == "oklahoma") then
         return {
             City = "Oklahoma",
-            Name = "Sooners",
+            Name = "Tar Heels",
             Abbreviation = "OU",
             Colors = {
                 Normal = {
@@ -108,7 +69,7 @@ function module:GetTeam(teamName)
                 Jersey = {
                     Home = {
                         NumberInner = "#ffffff",
-                        NumberStroke = "#ffffff",
+                        NumberStroke = "#000000",
                         Helmet = "#a31934",
                         Jersey = "#a31934",
                         Stripe = "#a31934",
@@ -119,12 +80,12 @@ function module:GetTeam(teamName)
                     Away = {
                         NumberInner = "#a31934",
                         NumberStroke = "#a31934",
-                        Helmet = "#a31934",
+                        Helmet = "#ffffff",
                         Jersey = "#ffffff",
                         Stripe = "#ffffff",
                         Pants = "#ffffff",
                         HelmetTexture = "rbxassetid://14583808610",
-                        Logo = "rbxassetid://14583815626"
+                        Logo = "rbxassetid://14583808610"
                     }
                 }
             },

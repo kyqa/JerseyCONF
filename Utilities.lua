@@ -54,7 +54,7 @@ function module:GetTeam(teamName)
     elseif (string.lower(teamName) == "oklahoma") then
         return {
             City = "Oklahoma",
-            Name = "Tar Heels",
+            Name = "Sooners",
             Abbreviation = "OU",
             Colors = {
                 Normal = {
@@ -85,7 +85,7 @@ function module:GetTeam(teamName)
                         Stripe = "#ffffff",
                         Pants = "#ffffff",
                         HelmetTexture = "rbxassetid://14583808610",
-                        Logo = "rbxassetid://14583808610"
+                        Logo = "rbxassetid://14583815626"
                     }
                 }
             },

@@ -398,6 +398,45 @@ function module:GetTeam(teamName)
                 }
             },
         }
+    elseif (string.lower(teamName) == "mississipi") then
+        return {
+            City = "Mississipi State",
+            Name = "Bulldogs",
+            Abbreviation = "MSST",
+            Colors = {
+                Normal = {
+                    Main = "#41101f",
+                    Light = "#4a1324"
+                },
+                Alternate = {
+                    Main = "#ffffff",
+                    Light = "#ffffff"
+                },
+                Endzone = "#41101f",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#ffffff",
+                        NumberStroke = "#ffffff",
+                        Helmet = "#41101f",
+                        Jersey = "#41101f",
+                        Stripe = "#41101f",
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14798168362",
+                        Logo = "rbxassetid://14798155942"
+                    },
+                    Away = {
+                        NumberInner = "#41101f",
+                        NumberStroke = "#41101f",
+                        Helmet = "#ffffff",
+                        Jersey = "#ffffff",
+                        Stripe = "#ffffff",
+                        Pants = "#41101f",
+                        HelmetTexture = "rbxassetid://14102464252",
+                        Logo = "rbxassetid://14798155942"
+                    }
+                }
+            },
+        }
     elseif (string.lower(teamName) == "arizona") then
         return {
             City = "Arizona",

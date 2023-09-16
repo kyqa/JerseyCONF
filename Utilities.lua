@@ -90,6 +90,84 @@ function module:GetTeam(teamName)
                 }
             },
         }
+    elseif (string.lower(teamName) == "wisconsin") then
+        return {
+            City = "Wisconsin",
+            Name = "Badgers",
+            Abbreviation = "WIS",
+            Colors = {
+                Normal = {
+                    Main = "a10000",
+                    Light = "#ae0303"
+                },
+                Alternate = {
+                    Main = "#ffffff",
+                    Light = "#ffffff"
+                },
+                Endzone = "#a10000",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#ffffff",
+                        NumberStroke = "#ffffff",
+                        Helmet = "#ffffff",
+                        Jersey = "#a10000",
+                        Stripe = "#a10000",
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14102464252",
+                        Logo = "rbxassetid://14796820290"
+                    },
+                    Away = {
+                        NumberInner = "#a10000",
+                        NumberStroke = "#a10000",
+                        Helmet = "#ffffff",
+                        Jersey = "#ffffff",
+                        Stripe = "#a10000",
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14102464252",
+                        Logo = "rbxassetid://14796820290"
+                    }
+                }
+            },
+        }
+    elseif (string.lower(teamName) == "oregon state") then
+        return {
+            City = "Oregon State",
+            Name = "Beavers",
+            Abbreviation = "ORST",
+            Colors = {
+                Normal = {
+                    Main = "#000000",
+                    Light = "#000000"
+                },
+                Alternate = {
+                    Main = "#ffffff",
+                    Light = "#ffffff"
+                },
+                Endzone = "#d94300",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#ffffff",
+                        NumberStroke = "#d94300",
+                        Helmet = "#000000",
+                        Jersey = "#000000",
+                        Stripe = "#d94300",
+                        Pants = "#000000",
+                        HelmetTexture = "rbxassetid://14172529295",
+                        Logo = "rbxassetid://14796910030"
+                    },
+                    Away = {
+                        NumberInner = "#000000",
+                        NumberStroke = "#d94300",
+                        Helmet = "#ffffff",
+                        Jersey = "#ffffff",
+                        Stripe = "#000000",
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14172529295",
+                        Logo = "rbxassetid://14796910030"
+                    }
+                }
+            },
+        }
     elseif (string.lower(teamName) == "clemson") then
         return {
             City = "Clemson",

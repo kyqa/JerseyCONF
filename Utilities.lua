@@ -90,6 +90,45 @@ function module:GetTeam(teamName)
                 }
             },
         }
+    elseif (string.lower(teamName) == "app") then
+        return {
+            City = "Appalachian State",
+            Name = "Mountaineers",
+            Abbreviation = "APP",
+            Colors = {
+                Normal = {
+                    Main = "#ffc208",
+                    Light = "#e0ab09"
+                },
+                Alternate = {
+                    Main = "#ffffff",
+                    Light = "#ffffff"
+                },
+                Endzone = "#8f162e",
+                Jersey = {
+                    Home = {
+                        NumberInner = "#000000",
+                        NumberStroke = "#ffffff",
+                        Helmet = "#000000",
+                        Jersey = "#ffc208",
+                        Stripe = "#ffc208",
+                        Pants = "#ffc208",
+                        HelmetTexture = "rbxassetid://14172529295",
+                        Logo = "rbxassetid://15058445909"
+                    },
+                    Away = {
+                        NumberInner = "#000000",
+                        NumberStroke = "#ffffff",
+                        Helmet = "#000000",
+                        Jersey = "#ffffff",
+                        Stripe = "#ffffff",
+                        Pants = "#ffffff",
+                        HelmetTexture = "rbxassetid://14172529295",
+                        Logo = "rbxassetid://15058445909"
+                    }
+                }
+            },
+        }
     elseif (string.lower(teamName) == "wisconsin") then
         return {
             City = "Wisconsin",

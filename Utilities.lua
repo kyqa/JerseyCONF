@@ -231,8 +231,7 @@ function module:GetTeam(teamName)
                         Stripe = "#ffffff",
                         Pants = "#f56600",
                         HelmetTexture = "rbxassetid://14136050366",
-                        Logo = "rbxassetid://14332753627",
-                        SBColor = "Bright orange"
+                        Logo = "rbxassetid://14332753627"
                     },
                     Away = {
                         NumberInner = "#f56600",
@@ -242,8 +241,7 @@ function module:GetTeam(teamName)
                         Stripe = "#ffffff",
                         Pants = "#ffffff",
                         HelmetTexture = "rbxassetid://14136050366",
-                        Logo = "rbxassetid://14332753627",
-                        SBColor = "Bright orange"
+                        Logo = "rbxassetid://14332753627"
                     }
                 }
             },
@@ -350,8 +348,7 @@ function module:GetTeam(teamName)
                         Stripe = "#ba4858",
                         Pants = "#004fb9",
                         HelmetTexture = "rbxassetid://14230064266",
-                        Logo = "rbxassetid://14230066804",
-                        SBColor = "Really blue"
+                        Logo = "rbxassetid://14230066804"
                     },
                     Away = {
                         NumberInner = "#004fb9",
@@ -361,8 +358,7 @@ function module:GetTeam(teamName)
                         Stripe = "#004fb9",
                         Pants = "#ffffff",
                         HelmetTexture = "rbxassetid://14102464252",
-                        Logo = "rbxassetid://14230066804",
-                        SBColor = "White"
+                        Logo = "rbxassetid://14230066804"
                     }
                 }
             },
